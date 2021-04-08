@@ -1,0 +1,18 @@
+<%- include ('./partials/header.html') %>
+
+<header id="home">
+    <h1>Hallo</h1>
+    <p>Dit zijn podcasts</p>
+</header>
+
+<main id="overview">
+    <h2><%= title %></h2>
+    <% data.forEach(item => { %>
+    <a href="<%= item.year %>/<%= item.month %>/<%= item.day %>/<%= item.url %>">
+        <h2><%= item.guest %> <span><%= item.job %></span></h2>
+        <p><%= item.date %></p>
+    </a>
+    <% }); %>
+</main>
+
+<%- include ('./partials/footer.html') %>
