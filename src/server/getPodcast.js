@@ -8,7 +8,6 @@ const got = require('got');
 //------------------------------------------------------------------------------> gets URL based on URL parameter
 function getURL(param) {
     const URL = 'https://vasilis.nl/gbi/' + param
-    console.log(URL)
     return URL
 }
 

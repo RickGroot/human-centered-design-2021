@@ -1,12 +1,11 @@
 <%- include ('./partials/header.html') %>
 
 <header id="home">
-    <h1>Hallo</h1>
-    <p>Dit zijn podcasts</p>
+    <h1><%= title %></h1>
+    <p>Deze pagina wordt nog aan gewerkt.</p>
 </header>
 
 <main id="overview">
-    <h2><%= title %></h2>
     <% data.forEach(item => { %>
     <a href="<%= item.year %>/<%= item.month %>/<%= item.day %>/<%= item.url %>">
         <h2><%= item.guest %> <span><%= item.job %></span></h2>
