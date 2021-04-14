@@ -45,12 +45,18 @@ btn1.addEventListener('click', e => {
     e.preventDefault()
     homeLink.classList.remove('class2')
     aside.classList.remove('class2')
+
+    btn1.classList.add('active')
+    btn2.classList.remove('active')
 })
 
 btn2.addEventListener('click', e => {
     e.preventDefault()
     homeLink.classList.add('class2')
     aside.classList.add('class2')
+
+    btn1.classList.remove('active')
+    btn2.classList.add('active')
 })
 
 btn3.addEventListener('click', e => {
@@ -66,6 +72,9 @@ btn3.addEventListener('click', e => {
     right.forEach(cont => {
         cont.classList.remove('right2')
     })
+
+    btn4.classList.remove('active')
+    btn3.classList.add('active')
 })
 
 btn4.addEventListener('click', e => {
@@ -81,4 +90,7 @@ btn4.addEventListener('click', e => {
     right.forEach(cont => {
         cont.classList.add('right2')
     })
+
+    btn3.classList.remove('active')
+    btn4.classList.add('active')
 })

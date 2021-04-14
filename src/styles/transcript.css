@@ -17,6 +17,11 @@ nav button {
     padding: 1em;
 }
 
+nav button.active {
+    color: white;
+    background-color: rgb(26, 26, 26);
+}
+
 /* ============================================================================================= Styling header */
 header {
     max-width: 600px;
