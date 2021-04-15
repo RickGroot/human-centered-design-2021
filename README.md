@@ -1,13 +1,46 @@
 # Human Centered Design @cmda-minor-web 2021
 //Interactie ontwerpen: Rapid prototypen en testen met echte mensen
 
-Human Centered Design is een  methode voor het ontwerpen van gebruiksvriendelijke interactieve toepassingen. 
-
 > What distinguishes Human-Centered Design from other problem-solving approaches is its obsessive focus on understanding the perspective of the person who experiences a problem, their needs, and whether the solution that has been designed for them is truly meeting their needs effectively or not. At its most effective, the very people who experience a problem the most are a constant part of the design process and when possible, become part of the design team itself. - [What Is Human-Centered Design?](https://medium.com/dc-design/what-is-human-centered-design-6711c09e2779)
 
-Door regelmatig te testen met je doelgroep kom je tot een beter en passend ontwerp. Een Frontend Designer en Developer heeft verstand van techniek, UX en design. Als je web technieken beheerst kun je je ideeën snel prototypen en testen in een browser. Je kan dan aanpassingen doorvoeren, uitproberen en weer testen ...
+## Link naar live prototype
+Ga hier naar de [live site](https://rick-groot-hcd.herokuapp.com/).
 
-In het vak Human Centered Design gaan we dingen ontwerpen voor echte mensen. Is er goede interactie? Kan je 'mens' je product op een prettige manier bedienen? Wat voor principes heb je gebruikt en getest? En is het leuk?
+## Table of contents
+- [Darice](#wie-is-darice)
+- [Podcasts](#podcasts)
+
+## Wie is Darice
+39 jaar oud, doof maar niet altijd doof geweest. Het viel eerst niet op, toen werd het slechter en slechter. Op de middelbare school kreeg ze een gehoorapparaat, en ging ze voor zitten in klas. Ze studeerde in Nederland op haar 19e. Door gebruik van medicijnen heeft ze haar gehele gehoor verloren. Nederlands is haar moedertaal, dus niet gebarentaal zoals veel andere doven. Zelf is ze ook Front-end developer, en ze probeert alles voor iedereen toegankelijk te maken.
+
+## Podcasts
+Darice luisterd graag naar podcasts. Dit doet ze vaak in haar vrije tijd, maar lang niet alle podcasts hebben een (goede) transcriptie. Darice wil graag een leukere ervaring bij het luisteren van podcasts. Hierbij wil ze een overzichtelijke transcriptie waardoor ze alles makkelijk kan volgen. Aan mij de opdracht om een goede pagina te maken waar Darice met plezier en gemak haar podcast kan luisteren/lezen. Ik heb gekozen voor de [podcasts van Vasilis van Gemert](https://vasilis.nl/gbi/), omdat ze deze podcasts leuk vind om naar te luisteren.
+
+## Testen
+### Test 1
+Bij deze test ging het voornamelijk om het kennismaken met Darice. Wie is ze, waar loopt ze vaak tegenaan en waar ziet ze veel verbeterpunten in? Tijdens deze test zijn er een aantal dingen naar boven komen drijven waar Darice meer waarde aan hecht:  
+
+* Plaats stukken tekst in blokken per persoon
+* Gebruik kleur om personen te verduidelijken
+* Sans-serif, 22px grootte en 33px interlinie (zelf instelbaar als dat kan)
+* Max-width van teksten op 600px
+* Verwijzingen van verhaal meteen in de tekst neerzetten
+* Geen teksten aanpassen, grammatica fouten houden het menselijk
+* Moet werken op firefox, dit is haar go-to browser  
+
+Voor het volledige testverslag, [check de wiki](https://github.com/RickGroot/human-centered-design-2021/wiki/Testverslag-Week-1)
+
+### Test 2
+Tijdens de tweede test ben ik mij vooral gaan focussen op het onderscheiden van verschillende sprekers, en handige knoppen op pagina's. Wanneer valt een knop goed op, en wanneer wordt deze te dominant? Zijn teksten die verschillend uitlijnen een goede toevoeging of maakt dit het juist onoverzichtelijk? Uit deze test heb ik de volgende punten kunnen halen: 
+
+* Ze houdt meer van iconen dan kleuren bij stemvolumes en emoties
+* Verhoog line height
+* Verhoog lettergrootte
+* Combineer kleur onderscheiding met spreker naam
+* Darice legt veel nadruk op goed leesbare teksten
+* Iinteractie met dark modes en font instellingen is een goede toevoeging  
+
+Voor het volledige testverslag, [check de wiki](https://github.com/RickGroot/human-centered-design-2021/wiki/Testverslag-Week-2)
 
 
 ## Opdracht
