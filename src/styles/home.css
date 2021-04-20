@@ -1,6 +1,6 @@
 /* ============================================================================================= Styling header */
 #home {
-    width: 100vw;
+    width: auto;
     padding: 2em 4em;
     margin: 0 auto;
     max-width: 1600px;
