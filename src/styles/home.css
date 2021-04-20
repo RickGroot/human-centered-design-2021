@@ -1,0 +1,122 @@
+/* ============================================================================================= Styling header */
+#home {
+    width: 100vw;
+    padding: 2em 4em;
+    margin: 0 auto;
+    max-width: 1600px;
+    /* for test nav */
+    padding-top: 10em;
+}
+
+#home h1 {
+    font-size: 2em;
+}
+
+#home p {
+    font-size: 1.2em;
+}
+
+/* ============================================================================================= Defining main colors */
+#overview a:nth-child(1) {
+    --color: 194, 0, 0;
+}
+
+#overview a:nth-child(2) {
+    --color: 37, 224, 0;
+}
+
+#overview a:nth-child(3) {
+    --color: 218, 0, 152;
+}
+
+#overview a:nth-child(4) {
+    --color: 24, 0, 243;
+}
+
+#overview a:nth-child(5) {
+    --color: 255, 230, 0;
+}
+
+#overview a:nth-child(6) {
+    --color: 0, 242, 250;
+}
+
+#overview a:nth-child(7) {
+    --color: 255, 153, 0;
+}
+
+#overview a:nth-child(8) {
+    --color: 0, 174, 255;
+}
+
+#overview a:nth-child(9) {
+    --color: 255, 81, 0;
+}
+
+/* ============================================================================================= Styling main */
+#overview {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 4em;
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+#overview a {
+    box-sizing: border-box;
+    position: relative;
+    padding: 1em;
+    margin: 1em;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    height: auto;
+    width: 400px;
+    border-radius: 10px;
+    border: 4px solid rgb(var(--color));
+    background-color: rgba(var(--color), 0.4);
+    overflow: hidden;
+    transition: all 0.4s ease;
+}
+
+/* ============================================================================================= Styling main pseudo classes */
+#overview a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -1px;
+    bottom: -1px;
+    width: 201%;
+    margin-left: 0;
+    background: linear-gradient(45deg, transparent 0% 40%, rgb(var(--color)) 40% 100%);
+    transition: all 0.5s ease;
+    z-index: -1;
+}
+
+#overview a:hover {
+    color: white;
+}
+
+#overview a:hover::after {
+    margin-left: -100%;
+}
+
+/* ============================================================================================= Styling main texts */
+#overview a h2 {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#overview a h2 span {
+    font-weight: initial;
+    display: block;
+    font-size: 0.8em;
+}
+
+#overview a p {
+    font-weight: lighter;
+    font-size: 1em;
+}
