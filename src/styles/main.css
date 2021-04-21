@@ -13,3 +13,32 @@ body {
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
+/* ============================================================================================= Styling test navigation */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(168, 168, 168, 0.5);
+    height: 5em;
+    z-index: 200;
+}
+
+nav div {
+    padding: 10px;
+    border: 2px solid black;
+}
+
+nav button {
+    padding: 1em;
+}
+
+nav button.active {
+    color: white;
+    background-color: rgb(26, 26, 26);
+}

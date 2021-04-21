@@ -151,6 +151,7 @@ if (btn7) {
 
 if (btn8) {
     btn8.addEventListener('click', e => {
+        window.location.reload()
         e.preventDefault()
 
         for (let i = 0; i < text.length; i++) {
@@ -166,6 +167,7 @@ if (btn8) {
 if (btn9) {
     btn9.addEventListener('click', e => {
         e.preventDefault()
+        btn9.blur()
 
         for (let i = 0; i < text.length; i++) {
             text[i].classList.add('none')
@@ -174,7 +176,7 @@ if (btn9) {
         let index = -1
 
         document.body.onkeyup = e => {
-            if(e.keyCode == 32){
+            if(e.keyCode == 32 || e.keyCode == 13 || e.keyCode == 39 || e.keyCode == 40){
                 index++
                 text[index].classList.remove('none')
                 window.scrollTo(0,document.body.scrollHeight)
@@ -188,7 +190,7 @@ if (btn9) {
 }
 
 function showTimer(i) {
-    let time = (i * 8000) + (text[i].innerHTML.length * 30)
+    let time = (i * 8000) + (text[i].innerHTML.length * 10)
 
     if (i===0) {
         time = 0
