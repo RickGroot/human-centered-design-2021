@@ -23,25 +23,30 @@ nav button.active {
 }
 
 /* ============================================================================================= Styling header */
-header {
+header#articlehead {
     max-width: 600px;
     margin: 0 auto;
+    padding: 0;
     padding-top: 2em;
     padding-bottom: 2em;
     padding-top: 10em; /* for nav */
 }
 
-header h1 a {
+header#articlehead h1 a {
     text-decoration: none;
     color: black;
     font-size: 1.8em;
 }
 
-header h1 a span {
+header#articlehead h1 a span {
     padding-top: 20px;
     display: block;
     font-style: oblique;
     font-size: 0.5em;
+}
+
+.header2 blockquote {
+    border: 5px solid #f09;
 }
 
 /* ============================================================================================= Styling main global */
@@ -74,6 +79,7 @@ main aside {
     z-index: 10;
     background-color: rgb(31, 31, 31);
     border-radius: 10px 10px 0 0;
+    max-width: 300px;
 }
 
 main aside h3 {
@@ -129,6 +135,10 @@ main section div a {
     color: black;
 }
 
+.none {
+    display: none !important;
+}
+
 /* ============================================================================================= Styling blockquote */
 abbr {
     font-style: oblique;
@@ -141,6 +151,7 @@ blockquote {
     margin: 4em auto;
     padding: 0.5em 10px;
     quotes: "\201C""\201D";
+    animation: fly 1s ease;
 }
 
 blockquote:before {
@@ -168,6 +179,18 @@ blockquote p {
     line-height: 1.3em;
 }
 
+@keyframes fly {
+    0% {
+        left: -200%;
+        opacity: 0;
+    }
+
+    100% {
+        left: 0;
+        opacity: 1;
+    }
+}
+
 /* ============================================================================================= Main styling text */
 main section p {
     font-size: 1.1em;
@@ -175,6 +198,7 @@ main section p {
 }
 
 main section p:not(:nth-child(2), :last-child) {
+    display: block;
     position: relative;
     background-color: var(--card-color);
     border-radius: 10px;

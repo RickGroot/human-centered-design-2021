@@ -40,16 +40,21 @@ let btn3 = document.getElementById('option3')
 let btn4 = document.getElementById('option4')
 let btn5 = document.getElementById('option5')
 let btn6 = document.getElementById('option6')
+let btn7 = document.getElementById('option7')
+let btn8 = document.getElementById('option8')
+let btn9 = document.getElementById('option9')
 
 let home = document.getElementById('overview')
 let homeLink = document.querySelector('#podcast>a')
 let aside = document.querySelector('#podcast>aside')
+let articleHeader = document.getElementById('articlehead')
+let text = document.querySelectorAll('#podcast>section p:not(:nth-child(2))')
 
 if (btn1) {
     btn1.addEventListener('click', e => {
         e.preventDefault()
-        homeLink.classList.remove('class2')
-        aside.classList.remove('class2')
+        articleHeader.classList.remove('header2')
+        // aside.classList.remove('class2')
 
         btn1.classList.add('active')
         btn2.classList.remove('active')
@@ -59,8 +64,8 @@ if (btn1) {
 if (btn2) {
     btn2.addEventListener('click', e => {
         e.preventDefault()
-        homeLink.classList.add('class2')
-        aside.classList.add('class2')
+        articleHeader.classList.add('header2')
+        // aside.classList.add('class2')
 
         btn1.classList.remove('active')
         btn2.classList.add('active')
@@ -127,4 +132,71 @@ if (btn6) {
         btn5.classList.remove('active')
         btn6.classList.add('active')
     })
+}
+
+if (btn7) {
+    btn7.addEventListener('click', e => {
+        e.preventDefault()
+
+        for (let i = 0; i < text.length; i++) {
+            text[i].classList.add('none')
+            showTimer(i)
+        }
+
+        btn7.classList.add('active')
+        btn8.classList.remove('active')
+        btn9.classList.remove('active')
+    })
+}
+
+if (btn8) {
+    btn8.addEventListener('click', e => {
+        e.preventDefault()
+
+        for (let i = 0; i < text.length; i++) {
+            text[i].classList.remove('none')
+        }
+
+        btn7.classList.remove('active')
+        btn8.classList.add('active')
+        btn9.classList.remove('active')
+    })
+}
+
+if (btn9) {
+    btn9.addEventListener('click', e => {
+        e.preventDefault()
+
+        for (let i = 0; i < text.length; i++) {
+            text[i].classList.add('none')
+        }
+
+        let index = -1
+
+        document.body.onkeyup = e => {
+            if(e.keyCode == 32){
+                index++
+                text[index].classList.remove('none')
+                window.scrollTo(0,document.body.scrollHeight)
+            }
+        }
+
+        btn7.classList.remove('active')
+        btn8.classList.remove('active')
+        btn9.classList.add('active')
+    })
+}
+
+function showTimer(i) {
+    let time = (i * 8000) + (text[i].innerHTML.length * 30)
+
+    if (i===0) {
+        time = 0
+    }
+
+    setTimeout(function () {
+        text[i++].classList.remove('none')
+        window.scrollTo(0,document.body.scrollHeight)
+        // console.log(time)
+    }, time);
 }
