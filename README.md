@@ -25,7 +25,7 @@ Darice luisterd graag naar podcasts. Dit doet ze vaak in haar vrije tijd, maar l
 
 <details>
 <summary>
-<h3>Study situation</h3>
+Study situation
 </summary>
 Darice is doof, en kan dus geen podcasts luisteren. Wel kan ze deze lezen, en ze wil de ervaring van het lezen van podcast graag anders zien. Navigeren van een website gaat net als andere personen, ze heeft hier dus geen last van andere beperkingen. Het gaat dus vooral om de ervaring van het lezen van haar favoriete podcasts. Door middel van een typtolk kan Darice communiceren met andere personen. Nederlands is haar moedertaal, en dus niet gebarentaal. Het toevoegen van iets met gebarentaal heeft dus geen nut.
 </details>
@@ -69,7 +69,7 @@ Bij deze test ging het voornamelijk om het kennismaken met Darice. Wie is ze, wa
 * Geen teksten aanpassen, grammatica fouten houden het menselijk
 * Moet werken op firefox, dit is haar go-to browser  
 
-Voor het volledige testverslag, [check de wiki](https://github.com/RickGroot/human-centered-design-2021/wiki/Testverslag-Week-1)
+> Voor het volledige testverslag, [check de wiki](https://github.com/RickGroot/human-centered-design-2021/wiki/Testverslag-Week-1)
 
 ### Test 2
 Tijdens de tweede test ben ik mij vooral gaan focussen op het onderscheiden van verschillende sprekers, en handige knoppen op pagina's. Wanneer valt een knop goed op, en wanneer wordt deze te dominant? Zijn teksten die verschillend uitlijnen een goede toevoeging of maakt dit het juist onoverzichtelijk? Uit deze test heb ik de volgende punten kunnen halen: 
@@ -81,7 +81,7 @@ Tijdens de tweede test ben ik mij vooral gaan focussen op het onderscheiden van 
 * Darice legt veel nadruk op goed leesbare teksten
 * Iinteractie met dark modes en font instellingen is een goede toevoeging  
 
-Voor het volledige testverslag, [check de wiki](https://github.com/RickGroot/human-centered-design-2021/wiki/Testverslag-Week-2)
+> Voor het volledige testverslag, [check de wiki](https://github.com/RickGroot/human-centered-design-2021/wiki/Testverslag-Week-2)
 
 ### Test 3
 Tijdens test 3 heb ik gekeken naar verschillende mogelijkheden in de vormgeving, op de home pagina en de podcast pagina. Ook heb ik gekeken naar verschillende opties van het laten inspringen van teksten, vind ze het fijn om gewoon te scrollen of om de volgende tekst te zijn bij een druk op een knop? Dit zijn mijn samengevatte conclusies van deze test: 
@@ -92,7 +92,7 @@ Tijdens test 3 heb ik gekeken naar verschillende mogelijkheden in de vormgeving,
 * Gifjes zijn altijd leuk, zolang ze niet constant op het scherm blijven
 * Onderscheid door middel van kleur werkt heel goed
 
-Voor het volledige testverslag, [check de wiki](https://github.com/RickGroot/human-centered-design-2021/wiki/Testverslag-Week-3)
+> Voor het volledige testverslag, [check de wiki](https://github.com/RickGroot/human-centered-design-2021/wiki/Testverslag-Week-3)
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
 
