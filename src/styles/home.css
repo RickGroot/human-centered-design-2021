@@ -1,11 +1,10 @@
 /* ============================================================================================= Styling header */
 #home {
     width: auto;
-    padding: 2em 4em;
-    margin: 0 auto;
+    padding: 0 4em;
+    margin: 4em auto;
+    margin-top: 8em;
     max-width: 1600px;
-    /* for test nav */
-    padding-top: 10em;
 }
 
 #home h1 {
@@ -60,24 +59,25 @@
     justify-content: space-around;
     align-items: flex-start;
     flex-wrap: wrap;
-    padding-bottom: 4em;
-    margin: 0 auto;
+    margin: 2em 4em;
     max-width: 1600px;
 }
 
 #overview a {
+    max-width: 400px;
     box-sizing: border-box;
     position: relative;
-    padding: 1em;
-    margin: 1em;
+    padding: 2em;
+    margin: 1em auto;
     text-decoration: none;
     color: black;
     display: inline-block;
-    height: auto;
-    width: 400px;
+    height: 100%;
+    width: 100%;
     border-radius: 10px;
-    border: 4px solid rgb(var(--color));
+    border: none;
     background-color: rgba(var(--color), 0.4);
+    border: 4px solid transparent;
     overflow: hidden;
     transition: all 0.4s ease;
 }
@@ -97,11 +97,12 @@
 }
 
 #overview a:hover {
-    color: white;
+    border: 4px solid rgb(var(--color));
+    background-color: rgba(var(--color), 0.6);
 }
 
 #overview a:hover::after {
-    margin-left: -100%;
+    margin-left: 100%;
 }
 
 /* ============================================================================================= Styling main texts */
@@ -119,44 +120,4 @@
 #overview a p {
     font-weight: lighter;
     font-size: 1em;
-}
-
-/* ============================================================================================= Styling version 2 */
-
-#overview.home2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
-    grid-column-gap: 4em;
-    grid-row-gap: 4em;
-    max-width: 1600px;
-    margin: 4em auto;
-    padding: 0 4em;
-}
-
-#overview.home2 a {
-    box-sizing: border-box;
-    position: relative;
-    padding: 2em;
-    margin: 0;
-    text-decoration: none;
-    color: black;
-    display: inline-block;
-    height: 100%;
-    width: 100%;
-    border-radius: 10px;
-    border: none;
-    background-color: rgba(var(--color), 0.4);
-    overflow: hidden;
-    transition: all 0.4s ease;
-}
-
-#overview.home2 a:hover {
-    transform: scale(1.05);
-    border: 4px solid rgb(var(--color));
-    background-color: rgba(var(--color), 0.6);
-}
-
-#overview.home2 a:hover::after {
-    margin-left: 100%;
 }

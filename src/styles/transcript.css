@@ -28,7 +28,7 @@ header#articlehead h1 a span {
 /* ============================================================================================= Styling main global */
 main {
     padding-top: 3em;
-    padding-bottom: 3em;
+    margin-bottom: var(--text-margin);
 }
 
 main#podcast>a {
@@ -203,34 +203,36 @@ main section p.previous {
     border-bottom-right-radius: 4px;
 }
 
+main>p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
+
 /* ============================================================================================= Styling left text */
 .left {
     box-shadow: -5px 5px 4px 0px rgba(0, 0, 0, 0.3);
     border-color: var(--speaker2);
-    border-width: 0 0 3px 3px;
     margin-right: 1em;
-}
-
-.left::after {
-    border-top-left-radius: 4px;
-    margin-right: calc(100% + 1px);
-    right: 0;
-    background-image: linear-gradient(45deg, transparent 0% 50%, var(--speaker2) 50% 100%);
-}
-
-/* ============================================================================================= Styling left text option 2 */
-.left2 {
     position: relative;
     border-width: 0 0 5px 1.4em;
     font-size: 1.2em;
     line-height: 1.3em;
 }
 
-.left2:after {
+.left::after {
+    border-top-left-radius: 4px;
     margin-right: calc(100% + 1.4em - 2px);
+    right: 0;
+    background-image: linear-gradient(45deg, transparent 0% 50%, var(--speaker2) 50% 100%);
 }
 
-.left2 b {
+.left b {
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     position: absolute;
@@ -244,31 +246,22 @@ main section p.previous {
 /* ============================================================================================= Styling right text */
 .right {
     box-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.3);
-    border-width: 0 3px 3px 0;
     border-color: var(--speaker1);
     margin-left: 1em;
-}
-
-.right::after {
-    border-top-right-radius: 4px;
-    margin-left: calc(100% + 1px);
-    left: 0;
-    background-image: linear-gradient(315deg, transparent 0% 50%, var(--speaker1) 50% 100%);
-}
-
-/* ============================================================================================= Styling right text option 2 */
-.right2 {
     position: relative;
     border-width: 0 1.4em 5px 0;
     font-size: 1.2em;
     line-height: 1.3em;
 }
 
-.right2:after {
+.right::after {
+    border-top-right-radius: 4px;
     margin-left: calc(100% + 1.4em - 2px);
+    left: 0;
+    background-image: linear-gradient(315deg, transparent 0% 50%, var(--speaker1) 50% 100%);
 }
 
-.right2 b {
+.right b {
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     position: absolute;
@@ -279,14 +272,79 @@ main section p.previous {
     z-index: 12;
 }
 
-/* ============================================================================================= Styling button option 2 */
-.class2 {
-    top: 50%;
-    height: fit-content;
-    border-radius: 10px !important;
+/* ============================================================================================= Styling speakers */
+main>div {
+    --margin: 2em;
+    --cont-width: calc(100vw / 2 - 300px - var(--margin));
+    --img-width: 100px;
+    width: var(--cont-width);
+    position: fixed;
+    margin-bottom: var(--text-margin);
+    bottom: 0;
+    height: 100px;
 }
 
-aside.class2 ul {
-    max-height: none;
-    height: auto;
+main>div>img {
+    position: relative;
+    width: var(--img-width);
+}
+
+.speaker1 {
+    left: 0;
+    margin-right: var(--margin);
+}
+
+.speaker1 img {
+    margin-left: calc(var(--cont-width) - var(--img-width));
+}
+
+.speaker2 {
+    right: 0;
+    margin-left: var(--margin);
+}
+
+.speaker2 img {
+    margin-right: calc(var(--cont-width) - var(--img-width));
+}
+
+main>div::after {
+    --mouth-width: 20px;
+    --mouth-height: 5px;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: var(--mouth-height);
+    width: var(--mouth-width);
+    background-color: rgb(146, 43, 43);
+    border-radius: 50%;
+    margin-bottom: 20%;
+    z-index: 1;
+}
+
+.animate::after {
+    animation: talk 0.4s infinite;
+}
+
+main>div.speaker1::after {
+    margin-left: calc((var(--cont-width) - var(--img-width)) + (var(--img-width) / 2 - var(--mouth-width) / 2));
+    margin-right: calc(var(--img-width) / 2 - var(--mouth-width) / 2);
+    top: 55%;
+}
+
+main>div.speaker2::after {
+    margin-right: calc((var(--cont-width) - var(--img-width)) + (var(--img-width) / 2 - var(--mouth-width) / 2));
+    margin-left: calc(var(--img-width) / 2 - var(--mouth-width) / 2);
+    top: 65%;
+}
+
+@keyframes talk {
+    0%, 100% {
+        height: var(--mouth-height);
+    }
+
+    50% {
+        height: calc(var(--mouth-height) * 1.8);
+    }
 }

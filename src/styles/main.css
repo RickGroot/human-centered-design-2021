@@ -1,5 +1,6 @@
 :root {
     --card-color: rgb(221, 221, 221);
+    --text-margin: 30vh;
     --speaker1: #ff4a59;
     --speaker2: #393cff;
 }
