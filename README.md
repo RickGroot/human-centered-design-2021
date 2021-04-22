@@ -10,13 +10,54 @@ Ga hier naar de [live site](https://rick-groot-hcd.herokuapp.com/).
 - [Darice](#wie-is-darice)
 - [Podcasts](#podcasts)
 
-## Wie is Darice
-39 jaar oud, doof maar niet altijd doof geweest. Het viel eerst niet op, toen werd het slechter en slechter. Op de middelbare school kreeg ze een gehoorapparaat, en ging ze voor zitten in klas. Ze studeerde in Nederland op haar 19e. Door gebruik van medicijnen heeft ze haar gehele gehoor verloren. Nederlands is haar moedertaal, dus niet gebarentaal zoals veel andere doven. Zelf is ze ook Front-end developer, en ze probeert alles voor iedereen toegankelijk te maken.
+## User scenario
+### Wie is Darice
+Darice is 39 jaar oud, ze is doof maar is niet altijd doof geweest. Eerst viel het niet op, maar toen werd het slechter en slechter. Op de middelbare school kreeg ze een gehoorapparaat, en ging ze voor zitten in klas. Ze studeerde in Nederland op haar 19e. Door gebruik van medicijnen heeft ze haar gehele gehoor verloren. Nederlands is haar moedertaal, dus niet gebarentaal zoals veel andere doven. Zelf is ze ook Front-end developer, en ze probeert alles voor iedereen toegankelijk te maken.
+
+### Hoe werkt Darice
+Door middel van een typtolk kan Darice communiceren met andere mensen. Wanneer er iemand wat zegt wordt dit door de typtolk vertaald naar Nederlandse tekst. Vervolgens kan ze door middel van normale Nederlandse taal terugpraten tegen die persoon. Omdat ze wel Nederlands kan spreken is de typtolk alleen nodig om gesproken teksten naar Darice te vertalen. Darice kan verder haar computer goed bedienen en heeft geen last met andere dingen uitvoeren, behalve als dit met geluid te maken heeft.
 
 ## Podcasts
 Darice luisterd graag naar podcasts. Dit doet ze vaak in haar vrije tijd, maar lang niet alle podcasts hebben een (goede) transcriptie. Darice wil graag een leukere ervaring bij het luisteren van podcasts. Hierbij wil ze een overzichtelijke transcriptie waardoor ze alles makkelijk kan volgen. Aan mij de opdracht om een goede pagina te maken waar Darice met plezier en gemak haar podcast kan luisteren/lezen. Ik heb gekozen voor de [podcasts van Vasilis van Gemert](https://vasilis.nl/gbi/), omdat ze deze podcasts leuk vind om naar te luisteren.
 
+## Exclusive design
+> Dit product is speciaal gemaakt oor Darice, op basis van meerdere testen met deze gebruiker.
+
+<details>
+<summary>
+<h3>Study situation</h3>
+</summary>
+Darice is doof, en kan dus geen podcasts luisteren. Wel kan ze deze lezen, en ze wil de ervaring van het lezen van podcast graag anders zien. Navigeren van een website gaat net als andere personen, ze heeft hier dus geen last van andere beperkingen. Het gaat dus vooral om de ervaring van het lezen van haar favoriete podcasts. Door middel van een typtolk kan Darice communiceren met andere personen. Nederlands is haar moedertaal, en dus niet gebarentaal. Het toevoegen van iets met gebarentaal heeft dus geen nut.
+</details>
+
+<details>
+<summary>
+Prioritise identity
+</summary>
+Darice houdt veel van podcasts, maar niet van allemaal. Ze luisterd net waar ze zin in heeft, dit is vaak naar actuele onderwerpen of naar podcasts die te maken hebben bij haar vakgebied. Uit test 1 is naar voren gekomen dat Darice de podcasts van Vasilis erg leuk en interessant vind. Om deze reden heb ik ervoor gekozen om een aantal van deze podcasts uit te werken voor Darice.
+</details>
+
+<details>
+<summary>
+Ignore conventions
+</summary>
+Een podcast luister je naar, toch? Js, behalve als je dat niet kan, dan wordt het een noodzaak om de transcriptie te lezen. Darice heeft bij het luisteren van een podcast genoeg aan een transcript, en heeft hier geen geluid bij nodig omdat ze dit toch niet kan horen. Dit betekent dat ik deze audio helemaal weg kan halen, wat je normaal nooit zou doen voor een podcast omdat het bedoelt is om naar te luisteren.  
+
+Ook zijn contrast en leesbaarheid geen groot probleem bij Darice, omdat ze alles gewoon goed kan zien. Zelf houd ze wel heel erg van een goed contrast en een goede toegankelijke interface, maar dit kan worden genegeert omdat ze zelf alles wel goed kan zien. (vooral van toepassing bij de closed-captions)
+
+Een conventie die ik niet heb gevolgd is het zelf scrollen van de content. Dit heb ik gedaan omdat Darice zelf minder lange stukken tekst wilt zien, maar alsnog wilt scrollen door de content. Dit is tegenstrijdig, en dus heb ik ervoor gekozen om een volgend stuk tekst te laten zijn bij een button press. Op deze manier kan ze door de podcast heen op haar eigen snelheid en lijkt de lijst tekst wat minder groot.
+</details>
+
+<details>
+<summary>
+Add noncense
+</summary>
+Noncence toevoegen bij dit project is ingewikkeld. Darice hamert veel op de design principes en wilt het project toch liever voor iedereen toeghankelijk hebben, wat het lastig maakt om leuke dingen toe te voegen die alleen bij haar passen. Toch heb ik ervoor gekozen om twee pratende personen toe te voegen, als een soort van equalizer. De mond van de pratende persoon gaat open op basis van het niveau van praten, en werkt dus tegelijk als een soort van equalizer. Deze optie is leuker en meer gepersonaliseerd als een bijvoorbeeld een simpele balk als equalizer.
+</details>
+
 ## Testen
+Ik heb deze tests gehouden met een team studenten, de tests waren remote door de COVID-19 pandemie. In mijn product heb ik een aantal verschillende ontwerpen gemaakt, die Darice zelf aan en uit kan zetten. Ze geeft op de verschillende ontwerpen haar mening, wat vind ze leuk aan een ontwerp en wat niet. Daarnaast heb ik ook nog per test zelf een aantal vragen gesteld op basis van de ontwerpen.
+
 ### Test 1
 Bij deze test ging het voornamelijk om het kennismaken met Darice. Wie is ze, waar loopt ze vaak tegenaan en waar ziet ze veel verbeterpunten in? Tijdens deze test zijn er een aantal dingen naar boven komen drijven waar Darice meer waarde aan hecht:  
 
@@ -42,129 +83,16 @@ Tijdens de tweede test ben ik mij vooral gaan focussen op het onderscheiden van 
 
 Voor het volledige testverslag, [check de wiki](https://github.com/RickGroot/human-centered-design-2021/wiki/Testverslag-Week-2)
 
+### Test 3
+Tijdens test 3 heb ik gekeken naar verschillende mogelijkheden in de vormgeving, op de home pagina en de podcast pagina. Ook heb ik gekeken naar verschillende opties van het laten inspringen van teksten, vind ze het fijn om gewoon te scrollen of om de volgende tekst te zijn bij een druk op een knop? Dit zijn mijn samengevatte conclusies van deze test: 
 
-## Opdracht
+* Kleur is geen goede omschrijving van toon
+* Toon geen zinnen woord voor woord, dit werkt heel vermoeiend
+* "Less is more", houd alles overzichtelijk
+* Gifjes zijn altijd leuk, zolang ze niet constant op het scherm blijven
+* Onderscheid door middel van kleur werkt heel goed
 
-### Ontwerpen met en voor echte mensen
-
-Voor dit vak krijg je een ontwerp-opdracht die je gaat maken voor 1 mens. Een echt mens. Je moet je ontwerp 3 keer testen. Door te testen en te itereren ga je je ontwerp verbeteren. Uiteindelijk heb je een ontwerp dat exclusief gemaakt is voor 1 persoon. Een _exclusive design_ ... Wie is deze persoon dan voor wie je dit gaat maken? Wat vindt deze persoon leuk of juist niet? En hoe bedient deze persoon een computer?
-
-- [Opdracht - Ontwerpen met en voor echte mensen](course/Opdracht.md)
-
-
-### Leerdoelen
-
-- _Leren hoe je (design) principles in een ontwerp kan toepassen._
-- _User needs begrijpen en gebruiken in je ontwerp._
-- _Leren hoe je moet testen en de resultaten gebruiken voor het verbeteren van je ontwerp._
-
-[Rubric](https://docs.google.com/spreadsheets/d/1no32c9YyAP78VMcqfA5i5at2OrxP9ce1d8dVGnii4Vs/)
-
-
-
-## Planning & programma
-
-| Planning  | Woensdag  |  Donderdag | Vrijdag  |
-|---|---|---|---|
-| [Week 1](#week-1)  | Intro, College inclusive design + Testen | Gastcollege + Testen | ~~Feedbackgesprekken~~ |
-| [Week 2](#week-2)  | College over testen + Testen  | Gastcollege + Testen | Feedbackgesprekken  |
-| [Week 3](#week-3)  | College + Testen  |  Gastcollege + Testen | Feedbackgesprekken  |
-| [Week 4](#week-4)  | Presentaties + Beoordelingsgesprekken | Beoordelingsgesprekken | Beoordelingsgesprekken + Weekly Nerd |
-
-
-
-### Week 1
-Deze week krijg je een college over _Exclusive Design Principles_. Deze Principles ga je toepassen in de opdracht. Op woensdag gaan we kennis maken met de echte mensen voor wie we gaan ontwerpen. Je kan dan al een kleine interactieve demo maken om te testen.
-
-#### Woensdag 7 april
-Woensdag is de eerste les van het vak Human Centered Design. Je krijgt een intro college over het vak en Vasilis gaat vertellen over _Exclusive Design_.
-
-Daarna prototypen en testen
-
-- 14:00 Groep Darice
-- 15:00 Groep Eric
-
-#### Donderdag 8 april
-Donderdag begint de les met een gastcollege. Deze les gaan we het artikelen [Exclusive Design van Vasilis van Gemert](https://exclusive-design.vasilis.nl/) bespreken.
-
-Daarna prototypen en testen
-
-- 10:30 Groep Roger 
-- 16:30 Groep Marijn
-
-
-#### Vrijdag 9 april
-Deze dag is voor Real-Time web...
-
-
-### Week 2
-Deze week heb je het tweede gesprek met je mens. Wat ga je testen? Wat wil je weten? 
-
-#### Woensdag 14 april
-Woensdag krijg je een college over testen. Voor deze les moet je het artikel [10 Usability Lessons van Steve Krug](https://www.uxbooth.com/articles/10-usability-lessons-from-steve-krugs-dont-make-me-think/) lezen.
-
-Daarna voor de tweede keer prototypen en testen
-
-- 14:00 Groep Darice 
-- 15:00 Groep Eric
-
-#### Donderdag 15 april
-Donderdag begint de les met een gastcollege van Marie van Driessche. 
-
-Daarna voor de tweede keer prototypen en testen
-
-- 10:30 Groep Roger 
-- 14:00 Groep Marijn
-
-#### Vrijdag 16 april
-Vrijdag zijn er coachgesprekken in teams.
-
-
-
-
-### Week 3
-In week 3 gaan we verder met testen, itereren en reflecteren. Deze week is de laatste sessie met je mens. 
-
-#### Woensdag 21 april
-Woensdag beginnen we met een college. Voor deze les moet je dit artikel lezen: [How User Scenarios Help To Improve Your UX van Sabina Idler](https://usabilla.com/blog/how-user-scenarios-help-to-improve-your-ux/).
-
-Daarna gaan we voord de laatste keer prototypen en testen
-
-- 14:00 Groep Darice 
-- 15:00 Groep Eric
-
-#### Donderdag 22 april
-Donderdag begint de les met een gastcollege van Johan Huijkman.
-
-Daarna gaan we voord de laatste keer prototypen en testen
-
-- 10:30 Groep Roger 
-- 14:00 Groep Marijn
-
-
-#### Vrijdag 23 april
-Vrijdag zijn er coachgesprekken.
-
-
-
-
-### Week 4
-
-Deze week hebben we een gesprek waarin we je vorderingen en bevindingen bespreken. We verwachten dat je op Github je tests en iteraties hebt beschreven. Belangrijk is dat je reflecteert op de leerdoelen van het vak. 
-
-
-#### Woensdag 28 april
-Teampresentaties en beoordelingsgesprekken. 
-
-#### Donderdag 29 april
-Beoordelingsgesprekken
-
-#### Vrijdag 30 april
-Beoordelingsgesprekken + Weekly Nerd
-
-
-
-
+Voor het volledige testverslag, [check de wiki](https://github.com/RickGroot/human-centered-design-2021/wiki/Testverslag-Week-3)
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
 
