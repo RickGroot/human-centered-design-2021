@@ -204,7 +204,7 @@ main section p.previous {
 }
 
 main>p {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -212,6 +212,11 @@ main>p {
     text-align: center;
     background-color: rgb(44, 44, 44);
     color: white;
+    transition: all 0.5s ease;
+}
+
+.noexplain {
+    top: -100%;
 }
 
 /* ============================================================================================= Styling left text */

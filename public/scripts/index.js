@@ -80,12 +80,12 @@ function timeInput() {
 }
 
 function showText() {
-    explainText.classList.remove('none')
+    explainText.classList.remove('noexplain')
     console.log('now')
 }
 
 function clearText() {
-    explainText.classList.add('none')
+    explainText.classList.add('noexplain')
 }
 
 explainText.addEventListener("click", () => {
