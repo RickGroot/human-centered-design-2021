@@ -163,6 +163,7 @@ Door te testen heb ik een goede home layout gemaakt. Door verschillende layouts 
 - [ ] Alle podcasts van Vasilis toevoegen
 - [ ] Meerdere iconen voor verschillende sprekers toevoegen
 - [ ] Localstorage toepassen om verder te lezen waar je gebleven was
+- [ ] De equalizer "echt" maken
 
 <!-- Add a link to your live demo in Github Pages 🌐-->
 
