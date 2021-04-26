@@ -9,6 +9,11 @@ Ga hier naar de [live site](https://rick-groot-hcd.herokuapp.com/).
 ## Table of contents
 - [Darice](#wie-is-darice)
 - [Podcasts](#podcasts)
+- [Exclusive design](#exclusive-design)
+- [Testen](#testen)
+- [Belangrijkste testbevindingen](#belangrijkste-testbevindingen)
+- [Alleen voor Darice](#alleen-voor-darice)
+- [Future enhancements](#future-enhancements)
 
 ## User scenario
 ### Wie is Darice
@@ -94,7 +99,7 @@ Tijdens test 3 heb ik gekeken naar verschillende mogelijkheden in de vormgeving,
 
 > Voor het volledige testverslag, [check de wiki](https://github.com/RickGroot/human-centered-design-2021/wiki/Testverslag-Week-3)
 
-### Belangrijkste bevindingen
+## Belangrijkste testbevindingen
 **Equalizer**  
 Doordat Darice doof is kan ze naturrlijk ook niet het volume van een stem horen. Daardoor zou Darice heel blij worden van een soort equalizer bij de podcast of film, dan kan ze beter begrijpen hoe een stuk tekst wordt overgebracht.
 
@@ -107,7 +112,7 @@ Darice kijkt altijd naar anderen, omdat ze zelf ook developer is. Wanneer er wee
 **Overzicht**  
 Darice houdt van overzicht, ze wil bijvoorbeeld alle verschillende podcasts op 1 pagina zien zodat ze een goed overzicht heeft. Ook houd ze erg van controle, ze kiest eerder voor een groot stuk tekst waar ze doorheen kan scrollen dan voor een tekst die automatisch wordt weergeven.
 
-## Speciaal voor Darice
+## Alleen voor Darice
 Dit project is helemaal gemaakt voor Darice. Dit zijn een aantal belangrijke toepassingen wat dit project echt voor Darice maken. 
 
 ### Podcasts van Vasilis
@@ -126,7 +131,7 @@ Grote stukken tekst zijn er niet meer in mijn ontwerp, door middel van een butto
 De verschillende sprekers zijn ingedeeld door middel van kleur. Op deze manier kan Darice in een oogopslag zien wie welk stuk tekst zegt. Ook een klein verschil in uitlijning maakt het onderscheid nog wat groter.
 
 ## Future Enhancements
-> Een dure omschrijving voor "To-Do List".
+> *Een dure omschrijving voor "To-Do List".*
 
 - [ ] Responsive maken
 - [ ] Alle podcasts van Vasilis toevoegen
