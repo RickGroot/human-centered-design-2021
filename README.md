@@ -116,19 +116,45 @@ Darice houdt van overzicht, ze wil bijvoorbeeld alle verschillende podcasts op 1
 Dit project is helemaal gemaakt voor Darice. Dit zijn een aantal belangrijke toepassingen wat dit project echt voor Darice maken. 
 
 ### Podcasts van Vasilis
-> Ik luister graag naar podcasts over actuele onderwerpen, of naar podcasts over bijvoorbeeld dit werkveld. De podcasts van Vasilis vindt ik leuk om naar te luisteren.  
+> *Ik luister graag naar podcasts over actuele onderwerpen, of naar podcasts over bijvoorbeeld dit werkveld. De podcasts van Vasilis vindt ik leuk om naar te luisteren.*  
 
 Darice heeft in de eerste test aangegeven dat ze de podcasts van Vasilis leuk vindt om naar te luisteren. Daarom heb ik ervoor gekozen om veel van deze podcasts uit te werken. Door dit te doen heeft Darice straks veel leesplezier van een aantal podcasts die ze zelf heel leuk vind.
 
 ### Grote stukken tekst
-> Het nadeel van podcast transcripts is dat ze zo groot zijn. Het is eigenlijk een hele grote saaie lap tekst.  
+> *Het nadeel van podcast transcripts is dat ze zo groot zijn. Het is eigenlijk een hele grote saaie lap tekst.*  
 
 Grote stukken tekst zijn er niet meer in mijn ontwerp, door middel van een button press krijg je een volgend tekstblok te zien. Hierdoor wordt Darice minder overvallen met een enorme tekst, en kan ze de podcast nogsteeds op eigen tempo lezen.
 
 ### Onderscheid
-> Doordat je die kleuren toepast kan ik heel makkelijk zien wat door wie wordt gezegd, dit scheelt mij veel onnodige moeite tijdens het lezen.  
+> *Doordat je die kleuren toepast kan ik heel makkelijk zien wat door wie wordt gezegd, dit scheelt mij veel onnodige moeite tijdens het lezen.*  
 
-De verschillende sprekers zijn ingedeeld door middel van kleur. Op deze manier kan Darice in een oogopslag zien wie welk stuk tekst zegt. Ook een klein verschil in uitlijning maakt het onderscheid nog wat groter.
+De verschillende sprekers zijn ingedeeld door middel van kleur. Op deze manier kan Darice in een oogopslag zien wie welk stuk tekst zegt. Ook een klein verschil in uitlijning maakt het onderscheid nog wat groter.  
+
+| ![Tekst 1][txt1] | ![Tekst 2][txt2] | ![Tekst 3][txt3] |
+|:---|:---|:---|
+| Versie 1 van onderscheiding door middel van kleuren | Versie 2 | Versie 3 (^uiteindelijk ontwerp^) |
+
+[txt1]: https://github.com/rickgroot/human-centered-design-2021/blob/main/assets/txt2.jpg?raw=true "Tekst 1"
+[txt2]: https://github.com/rickgroot/human-centered-design-2021/blob/main/assets/txt3.jpg?raw=true "Tekst 2"
+[txt3]: https://github.com/rickgroot/human-centered-design-2021/blob/main/assets/txt4.jpg?raw=true "Tekst 3"
+
+### Equalizer
+> *Ik kan de sterkte van spreken niet horen, een soort equalizer zou daarom voor mij veel waarder hebben.*  
+
+Door een equalizer aan het ontwerp toe te voegen heeft Darice wat visuele feedback van het niveau van spreken. Hierdoor kan ze de podcasts beter begrijpen, omdat ze het niveau kan inschatten.
+
+### Home layout
+> *Ik wil veel podcasts in een keer kunnen zien, dit laat mij makkelijk een leuke uitkiezen.*  
+
+Door te testen heb ik een goede home layout gemaakt. Door verschillende layouts met elkaar te combineren heb ik een passend ontwerp kunnen maken. De layout is overzichtelijk, laat veel content zien en lijd niet af bij interactie.  
+
+| ![Layout 1][lay1] | ![Layout 2][lay2] | ![Layout 3][lay3]
+|:---|:---|:---|
+| De 3 kolommen van de eerste variant | En de uitstraling en interactie van de tweede versie | Maakt een goede layout voor Darice (^uiteindelijk ontwerp^) |
+
+[lay1]: https://github.com/rickgroot/human-centered-design-2021/blob/main/assets/lay1.jpg?raw=true "Layout 1"
+[lay2]: https://github.com/rickgroot/human-centered-design-2021/blob/main/assets/lay2.jpg?raw=true "Layout 2"
+[lay3]: https://github.com/rickgroot/human-centered-design-2021/blob/main/assets/lay3.jpg?raw=true "Layout 3"
 
 ## Future Enhancements
 > *Een dure omschrijving voor "To-Do List".*
