@@ -16,40 +16,54 @@
 }
 
 /* ============================================================================================= Defining main colors */
-#overview a:nth-child(1) {
+#overview a:nth-child(1),
+#overview a:nth-child(11) {
     --color: 194, 0, 0;
 }
 
-#overview a:nth-child(2) {
+#overview a:nth-child(2),
+#overview a:nth-child(12) {
     --color: 37, 224, 0;
 }
 
-#overview a:nth-child(3) {
+#overview a:nth-child(3),
+#overview a:nth-child(13) {
     --color: 218, 0, 152;
 }
 
-#overview a:nth-child(4) {
+#overview a:nth-child(4),
+#overview a:nth-child(14) {
     --color: 24, 0, 243;
 }
 
-#overview a:nth-child(5) {
+#overview a:nth-child(5),
+#overview a:nth-child(15) {
     --color: 255, 230, 0;
 }
 
-#overview a:nth-child(6) {
+#overview a:nth-child(6),
+#overview a:nth-child(16) {
     --color: 0, 242, 250;
 }
 
-#overview a:nth-child(7) {
+#overview a:nth-child(7),
+#overview a:nth-child(17) {
     --color: 255, 153, 0;
 }
 
-#overview a:nth-child(8) {
+#overview a:nth-child(8),
+#overview a:nth-child(18) {
     --color: 0, 174, 255;
 }
 
-#overview a:nth-child(9) {
+#overview a:nth-child(9),
+#overview a:nth-child(19) {
     --color: 255, 81, 0;
+}
+
+#overview a:nth-child(10),
+#overview a:nth-child(20) {
+    --color: 110, 216, 23;
 }
 
 /* ============================================================================================= Styling main */

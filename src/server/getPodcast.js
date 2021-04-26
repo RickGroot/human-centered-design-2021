@@ -112,6 +112,78 @@ function getLinks() {
         month: 03,
         day: 05,
         url: "dean-birkett"
+    },{
+        guest: "Marc Thiele",
+        job: "Organiser of the Beyond Tellerrand Conference",
+        date: "24-02-2018",
+        year: 2018,
+        month: 02,
+        day: 24,
+        url: "marc-thiele"
+    },{
+        guest: "Maarten P. Kappert",
+        job: "Creative Consultant bij Mirabeau",
+        date: "19-02-2018",
+        year: 2018,
+        month: 02,
+        day: 19,
+        url: "maarten-p-kappert"
+    },{
+        guest: "Peter Bilak",
+        job: "Founder of Typotheque",
+        date: "11-02-2018",
+        year: 2018,
+        month: 02,
+        day: 11,
+        url: "peter-bilak"
+    },{
+        guest: "Joost Faber",
+        job: "Docent aan CMD Amsterdam",
+        date: "30-01-2018",
+        year: 2018,
+        month: 01,
+        day: 30,
+        url: "joost-faber"
+    },{
+        guest: "Marije ten Brink",
+        job: "Docent bij CMD in Amsterdam",
+        date: "24-01-2018",
+        year: 2018,
+        month: 01,
+        day: 24,
+        url: "marije-ten-brink"
+    },{
+        guest: "Yuri Westplat",
+        job: "Interaction Designer",
+        date: "11-12-2017",
+        year: 2017,
+        month: 12,
+        day: 11,
+        url: "yuri-westplat"
+    },{
+        guest: "Jasper Kaizer",
+        job: "Projectleider bij Q42",
+        date: "26-11-2017",
+        year: 2017,
+        month: 11,
+        day: 26,
+        url: "jasper-kaizer"
+    },{
+        guest: "Astrid Poot",
+        job: "Van de Familie van Fonk",
+        date: "21-11-2017",
+        year: 2017,
+        month: 11,
+        day: 21,
+        url: "astrid-poot-2"
+    },{
+        guest: "Alper Cugun",
+        job: "Design strateeg",
+        date: "09-11-2017",
+        year: 2017,
+        month: 11,
+        day: 09,
+        url: "alper-cugun"
     },]
 
     return data

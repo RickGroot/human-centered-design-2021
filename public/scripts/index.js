@@ -81,7 +81,6 @@ function timeInput() {
 
 function showText() {
     explainText.classList.remove('noexplain')
-    console.log('now')
 }
 
 function clearText() {
