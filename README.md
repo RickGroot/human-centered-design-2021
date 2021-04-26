@@ -94,6 +94,45 @@ Tijdens test 3 heb ik gekeken naar verschillende mogelijkheden in de vormgeving,
 
 > Voor het volledige testverslag, [check de wiki](https://github.com/RickGroot/human-centered-design-2021/wiki/Testverslag-Week-3)
 
+### Belangrijkste bevindingen
+**Equalizer**  
+Doordat Darice doof is kan ze naturrlijk ook niet het volume van een stem horen. Daardoor zou Darice heel blij worden van een soort equalizer bij de podcast of film, dan kan ze beter begrijpen hoe een stuk tekst wordt overgebracht.
+
+**Kleuren**  
+Kleurgebruik kan veel dingen verbeteren voor Darice. Door tests in week 3 is duidelijk geworden dat emoties overbrengen door middel van kleuren niet heel goed werkt. Daarentegen is kleur wel een heel goed middel om bijvoorbeeld verschillende sprekers te onderscheiden.
+
+**Inclusive design**  
+Darice kijkt altijd naar anderen, omdat ze zelf ook developer is. Wanneer er weer een nieuw concept wordt laten zien kijkt ze altijd naar de toeghankelijkheid van deze oplossing. Dit maakt het lastig om echt ietsvoor Darice te designen.
+
+**Overzicht**  
+Darice houdt van overzicht, ze wil bijvoorbeeld alle verschillende podcasts op 1 pagina zien zodat ze een goed overzicht heeft. Ook houd ze erg van controle, ze kiest eerder voor een groot stuk tekst waar ze doorheen kan scrollen dan voor een tekst die automatisch wordt weergeven.
+
+## Speciaal voor Darice
+Dit project is helemaal gemaakt voor Darice. Dit zijn een aantal belangrijke toepassingen wat dit project echt voor Darice maken. 
+
+### Podcasts van Vasilis
+> Ik luister graag naar podcasts over actuele onderwerpen, of naar podcasts over bijvoorbeeld dit werkveld. De podcasts van Vasilis vindt ik leuk om naar te luisteren.  
+
+Darice heeft in de eerste test aangegeven dat ze de podcasts van Vasilis leuk vindt om naar te luisteren. Daarom heb ik ervoor gekozen om veel van deze podcasts uit te werken. Door dit te doen heeft Darice straks veel leesplezier van een aantal podcasts die ze zelf heel leuk vind.
+
+### Grote stukken tekst
+> Het nadeel van podcast transcripts is dat ze zo groot zijn. Het is eigenlijk een hele grote saaie lap tekst.  
+
+Grote stukken tekst zijn er niet meer in mijn ontwerp, door middel van een button press krijg je een volgend tekstblok te zien. Hierdoor wordt Darice minder overvallen met een enorme tekst, en kan ze de podcast nogsteeds op eigen tempo lezen.
+
+### Onderscheid
+> Doordat je die kleuren toepast kan ik heel makkelijk zien wat door wie wordt gezegd, dit scheelt mij veel onnodige moeite tijdens het lezen.  
+
+De verschillende sprekers zijn ingedeeld door middel van kleur. Op deze manier kan Darice in een oogopslag zien wie welk stuk tekst zegt. Ook een klein verschil in uitlijning maakt het onderscheid nog wat groter.
+
+## Future Enhancements
+> Een dure omschrijving voor "To-Do List".
+
+- [ ] Responsive maken
+- [ ] Alle podcasts van Vasilis toevoegen
+- [ ] Meerdere iconen voor verschillende sprekers toevoegen
+- [ ] Localstorage toepassen om verder te lezen waar je gebleven was
+
 <!-- Add a link to your live demo in Github Pages 🌐-->
 
 <!-- ☝️ replace this description with a description of your own work -->
