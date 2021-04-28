@@ -133,7 +133,7 @@ De verschillende sprekers zijn ingedeeld door middel van kleur. Op deze manier k
 
 | ![Tekst 1][txt1] | ![Tekst 2][txt2] | ![Tekst 3][txt3] |
 |:---|:---|:---|
-| Versie 1 van onderscheiding door middel van kleuren | Versie 2 | Versie 3 (^uiteindelijk ontwerp^) |
+| Versie 1, onderscheiding alleen door middel van kleuren | Versie 2, onderscheiding ook met verschillende uitlijningen | Versie 3 (^uiteindelijk ontwerp^) |
 
 [txt1]: https://github.com/rickgroot/human-centered-design-2021/blob/main/assets/txt2.jpg?raw=true "Tekst 1"
 [txt2]: https://github.com/rickgroot/human-centered-design-2021/blob/main/assets/txt3.jpg?raw=true "Tekst 2"
@@ -163,7 +163,7 @@ Door te testen heb ik een goede home layout gemaakt. Door verschillende layouts 
 > *Een dure omschrijving voor "To-Do List".*
 
 - [ ] Responsive maken
-- [ ] Alle podcasts van Vasilis toevoegen
+- [ ] Alle [podcasts van Vasilis](https://vasilis.nl/gbi/) toevoegen
 - [ ] Meerdere iconen voor verschillende sprekers toevoegen
 - [ ] Localstorage toepassen om verder te lezen waar je gebleven was
 - [ ] De equalizer "echt" maken
