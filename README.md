@@ -101,16 +101,16 @@ Tijdens test 3 heb ik gekeken naar verschillende mogelijkheden in de vormgeving,
 > Voor het volledige testverslag, [check de wiki](https://github.com/RickGroot/human-centered-design-2021/wiki/Testverslag-Week-3)
 
 ## Belangrijkste testbevindingen
-**Equalizer**  
+### Equalizer
 Doordat Darice doof is kan ze natuurlijk ook niet het volume van een stem horen. Daardoor zou Darice heel blij worden van een soort equalizer bij de podcast of film, dan kan ze beter begrijpen hoe een stuk tekst wordt overgebracht.
 
-**Kleuren**  
+### Kleuren
 Kleurgebruik kan veel dingen verbeteren voor Darice. Door tests in week 3 is duidelijk geworden dat emoties overbrengen door middel van kleuren niet heel goed werkt. Daarentegen is kleur wel een heel goed middel om bijvoorbeeld verschillende sprekers te onderscheiden.
 
-**Inclusive design**  
+### Inclusive design
 Darice kijkt altijd naar anderen, omdat ze zelf ook developer is. Wanneer er weer een nieuw concept wordt laten zien kijkt ze altijd naar de toegankelijkheid van deze oplossing. Dit maakt het lastig om echt iets voor Darice te designen.
 
-**Overzicht**  
+### Overzicht
 Darice houdt van overzicht, ze wil bijvoorbeeld alle verschillende podcasts op 1 pagina zien zodat ze een goed overzicht heeft. Ook houd ze erg van controle, ze kiest eerder voor een groot stuk tekst waar ze doorheen kan scrollen dan voor een tekst die automatisch wordt weergeven.
 
 ## Alleen voor Darice
@@ -142,7 +142,9 @@ De verschillende sprekers zijn ingedeeld door middel van kleur. Op deze manier k
 ### Equalizer
 > *Ik kan de sterkte van spreken niet horen, een soort equalizer zou daarom voor mij veel waarde kunnen hebben.*  
 
-Door een equalizer aan het ontwerp toe te voegen heeft Darice wat visuele feedback van het niveau van spreken. Hierdoor kan ze de podcasts beter begrijpen, omdat ze het niveau kan inschatten.
+Door een equalizer aan het ontwerp toe te voegen heeft Darice wat visuele feedback van het niveau van spreken. Hierdoor kan ze de podcasts beter begrijpen, omdat ze het niveau kan inschatten. De equalizer heb ik op een speelse manier toegepast, want de monden van de sprekers bewegen op basis van stem volume. Wanneer de spreker dus hard praat gaat de mond ver open, en anders gaat hij maar een beetje open.
+
+![Equalizer](https://github.com/rickgroot/human-centered-design-2021/blob/main/assets/equalizer.jpg?raw=true)
 
 ### Home layout
 > *Ik wil veel podcasts in een keer kunnen zien, dit laat mij makkelijk een leuke uitkiezen.*  
