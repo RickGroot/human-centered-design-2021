@@ -7,7 +7,7 @@
 Ga hier naar de [live site](https://rick-groot-hcd.herokuapp.com/).
 
 ## Table of contents
-- [Darice](#wie-is-darice)
+- [Darice](#user-scenario)
 - [Podcasts](#podcasts)
 - [Exclusive design](#exclusive-design)
 - [Testen](#testen)
@@ -16,6 +16,7 @@ Ga hier naar de [live site](https://rick-groot-hcd.herokuapp.com/).
 - [Future enhancements](#future-enhancements)
 
 ## User scenario
+![Darice de Cuba](https://github.com/rickgroot/human-centered-design-2021/blob/main/assets/darice.png?raw=true)
 ### Wie is Darice
 Darice is 39 jaar oud, ze is doof maar is niet altijd doof geweest. Eerst viel het niet op, maar toen werd het slechter en slechter. Op de middelbare school kreeg ze een gehoorapparaat, en ging ze voor zitten in klas. Ze studeerde in Nederland op haar 19e. Door gebruik van medicijnen heeft ze haar gehele gehoor verloren. Nederlands is haar moedertaal, dus niet gebarentaal zoals veel andere doven. Zelf is ze ook Front-end developer, en ze probeert alles voor iedereen toegankelijk te maken.
 
@@ -23,7 +24,7 @@ Darice is 39 jaar oud, ze is doof maar is niet altijd doof geweest. Eerst viel h
 Door middel van een typtolk kan Darice communiceren met andere mensen. Wanneer er iemand wat zegt wordt dit door de typtolk vertaald naar Nederlandse tekst. Vervolgens kan ze door middel van normale Nederlandse taal terugpraten tegen die persoon. Omdat ze wel Nederlands kan spreken is de typtolk alleen nodig om gesproken teksten naar Darice te vertalen. Darice kan verder haar computer goed bedienen en heeft geen last met andere dingen uitvoeren, behalve als dit met geluid te maken heeft.
 
 ## Podcasts
-Darice luisterd graag naar podcasts. Dit doet ze vaak in haar vrije tijd, maar lang niet alle podcasts hebben een (goede) transcriptie. Darice wil graag een leukere ervaring bij het luisteren van podcasts. Hierbij wil ze een overzichtelijke transcriptie waardoor ze alles makkelijk kan volgen. Aan mij de opdracht om een goede pagina te maken waar Darice met plezier en gemak haar podcast kan luisteren/lezen. Ik heb gekozen voor de [podcasts van Vasilis van Gemert](https://vasilis.nl/gbi/), omdat ze deze podcasts leuk vind om naar te luisteren.
+Darice luistert graag naar podcasts. Dit doet ze vaak in haar vrije tijd, maar lang niet alle podcasts hebben een (goede) transcriptie. Darice wil graag een leukere ervaring bij het luisteren van podcasts. Hierbij wil ze een overzichtelijke transcriptie waardoor ze alles makkelijk kan volgen. Aan mij de opdracht om een goede pagina te maken waar Darice met plezier en gemak haar podcast kan luisteren/lezen. Ik heb gekozen voor de [podcasts van Vasilis van Gemert](https://vasilis.nl/gbi/), omdat ze deze podcasts leuk vind om naar te luisteren.
 
 ## Exclusive design
 > Dit product is speciaal gemaakt oor Darice, op basis van meerdere testen met deze gebruiker.
@@ -39,16 +40,16 @@ Darice is doof, en kan dus geen podcasts luisteren. Wel kan ze deze lezen, en ze
 <summary>
 Prioritise identity
 </summary>
-Darice houdt veel van podcasts, maar niet van allemaal. Ze luisterd net waar ze zin in heeft, dit is vaak naar actuele onderwerpen of naar podcasts die te maken hebben bij haar vakgebied. Uit test 1 is naar voren gekomen dat Darice de podcasts van Vasilis erg leuk en interessant vind. Om deze reden heb ik ervoor gekozen om een aantal van deze podcasts uit te werken voor Darice.
+Darice houdt veel van podcasts, maar niet van allemaal. Ze luistert net waar ze zin in heeft, dit is vaak naar actuele onderwerpen of naar podcasts die te maken hebben bij haar vakgebied. Uit test 1 is naar voren gekomen dat Darice de podcasts van Vasilis erg leuk en interessant vind. Om deze reden heb ik ervoor gekozen om een aantal van deze podcasts uit te werken voor Darice.
 </details>
 
 <details>
 <summary>
 Ignore conventions
 </summary>
-Een podcast luister je naar, toch? Js, behalve als je dat niet kan, dan wordt het een noodzaak om de transcriptie te lezen. Darice heeft bij het luisteren van een podcast genoeg aan een transcript, en heeft hier geen geluid bij nodig omdat ze dit toch niet kan horen. Dit betekent dat ik deze audio helemaal weg kan halen, wat je normaal nooit zou doen voor een podcast omdat het bedoelt is om naar te luisteren.  
+Een podcast luister je naar, toch? Js, behalve als je dat niet kan, dan wordt het een noodzaak om de transcriptie te lezen. Darice heeft bij het luisteren van een podcast genoeg aan een transcript, en heeft hier geen geluid bij nodig omdat ze dit toch niet kan horen. Dit betekent dat ik deze audio helemaal weg kan halen, wat je normaal nooit zou doen voor een podcast omdat het bedoeld is om naar te luisteren.  
 
-Ook zijn contrast en leesbaarheid geen groot probleem bij Darice, omdat ze alles gewoon goed kan zien. Zelf houd ze wel heel erg van een goed contrast en een goede toegankelijke interface, maar dit kan worden genegeert omdat ze zelf alles wel goed kan zien. (vooral van toepassing bij de closed-captions)
+Ook zijn contrast en leesbaarheid geen groot probleem bij Darice, omdat ze alles gewoon goed kan zien. Zelf houd ze wel heel erg van een goed contrast en een goede toegankelijke interface, maar dit kan worden genegeerd omdat ze zelf alles wel goed kan zien. (vooral van toepassing bij de closed-captions)
 
 Een conventie die ik niet heb gevolgd is het zelf scrollen van de content. Dit heb ik gedaan omdat Darice zelf minder lange stukken tekst wilt zien, maar alsnog wilt scrollen door de content. Dit is tegenstrijdig, en dus heb ik ervoor gekozen om een volgend stuk tekst te laten zijn bij een button press. Op deze manier kan ze door de podcast heen op haar eigen snelheid en lijkt de lijst tekst wat minder groot.
 </details>
@@ -57,7 +58,7 @@ Een conventie die ik niet heb gevolgd is het zelf scrollen van de content. Dit h
 <summary>
 Add noncense
 </summary>
-Noncence toevoegen bij dit project is ingewikkeld. Darice hamert veel op de design principes en wilt het project toch liever voor iedereen toeghankelijk hebben, wat het lastig maakt om leuke dingen toe te voegen die alleen bij haar passen. Toch heb ik ervoor gekozen om twee pratende personen toe te voegen, als een soort van equalizer. De mond van de pratende persoon gaat open op basis van het niveau van praten, en werkt dus tegelijk als een soort van equalizer. Deze optie is leuker en meer gepersonaliseerd als een bijvoorbeeld een simpele balk als equalizer.
+Noncence toevoegen bij dit project is ingewikkeld. Darice hamert veel op de design principes en wilt het project toch liever voor iedereen toegankelijk hebben, wat het lastig maakt om leuke dingen toe te voegen die alleen bij haar passen. Toch heb ik ervoor gekozen om twee pratende personen toe te voegen, als een soort van equalizer. De mond van de pratende persoon gaat open op basis van het niveau van praten, en werkt dus tegelijk als een soort van equalizer. Deze optie is leuker en meer gepersonaliseerd als een bijvoorbeeld een simpele balk als equalizer.
 </details>
 
 ## Testen
@@ -71,7 +72,7 @@ Bij deze test ging het voornamelijk om het kennismaken met Darice. Wie is ze, wa
 * Sans-serif, 22px grootte en 33px interlinie (zelf instelbaar als dat kan)
 * Max-width van teksten op 600px
 * Verwijzingen van verhaal meteen in de tekst neerzetten
-* Geen teksten aanpassen, grammatica fouten houden het menselijk
+* Geen teksten aanpassen, grammaticafouten houden het menselijk
 * Moet werken op firefox, dit is haar go-to browser  
 
 > Voor het volledige testverslag, [check de wiki](https://github.com/RickGroot/human-centered-design-2021/wiki/Testverslag-Week-1)
@@ -84,12 +85,12 @@ Tijdens de tweede test ben ik mij vooral gaan focussen op het onderscheiden van 
 * Verhoog lettergrootte
 * Combineer kleur onderscheiding met spreker naam
 * Darice legt veel nadruk op goed leesbare teksten
-* Iinteractie met dark modes en font instellingen is een goede toevoeging  
+* Interactie met dark modes en font instellingen is een goede toevoeging  
 
 > Voor het volledige testverslag, [check de wiki](https://github.com/RickGroot/human-centered-design-2021/wiki/Testverslag-Week-2)
 
 ### Test 3
-Tijdens test 3 heb ik gekeken naar verschillende mogelijkheden in de vormgeving, op de home pagina en de podcast pagina. Ook heb ik gekeken naar verschillende opties van het laten inspringen van teksten, vind ze het fijn om gewoon te scrollen of om de volgende tekst te zijn bij een druk op een knop? Dit zijn mijn samengevatte conclusies van deze test: 
+Tijdens test 3 heb ik gekeken naar verschillende mogelijkheden in de vormgeving, op de homepagina en de podcast pagina. Ook heb ik gekeken naar verschillende opties van het laten inspringen van teksten, vind ze het fijn om gewoon te scrollen of om de volgende tekst te zijn bij een druk op een knop? Dit zijn mijn samengevatte conclusies van deze test: 
 
 * Kleur is geen goede omschrijving van toon
 * Toon geen zinnen woord voor woord, dit werkt heel vermoeiend
@@ -101,13 +102,13 @@ Tijdens test 3 heb ik gekeken naar verschillende mogelijkheden in de vormgeving,
 
 ## Belangrijkste testbevindingen
 **Equalizer**  
-Doordat Darice doof is kan ze naturrlijk ook niet het volume van een stem horen. Daardoor zou Darice heel blij worden van een soort equalizer bij de podcast of film, dan kan ze beter begrijpen hoe een stuk tekst wordt overgebracht.
+Doordat Darice doof is kan ze natuurlijk ook niet het volume van een stem horen. Daardoor zou Darice heel blij worden van een soort equalizer bij de podcast of film, dan kan ze beter begrijpen hoe een stuk tekst wordt overgebracht.
 
 **Kleuren**  
 Kleurgebruik kan veel dingen verbeteren voor Darice. Door tests in week 3 is duidelijk geworden dat emoties overbrengen door middel van kleuren niet heel goed werkt. Daarentegen is kleur wel een heel goed middel om bijvoorbeeld verschillende sprekers te onderscheiden.
 
 **Inclusive design**  
-Darice kijkt altijd naar anderen, omdat ze zelf ook developer is. Wanneer er weer een nieuw concept wordt laten zien kijkt ze altijd naar de toeghankelijkheid van deze oplossing. Dit maakt het lastig om echt ietsvoor Darice te designen.
+Darice kijkt altijd naar anderen, omdat ze zelf ook developer is. Wanneer er weer een nieuw concept wordt laten zien kijkt ze altijd naar de toegankelijkheid van deze oplossing. Dit maakt het lastig om echt iets voor Darice te designen.
 
 **Overzicht**  
 Darice houdt van overzicht, ze wil bijvoorbeeld alle verschillende podcasts op 1 pagina zien zodat ze een goed overzicht heeft. Ook houd ze erg van controle, ze kiest eerder voor een groot stuk tekst waar ze doorheen kan scrollen dan voor een tekst die automatisch wordt weergeven.
@@ -116,14 +117,14 @@ Darice houdt van overzicht, ze wil bijvoorbeeld alle verschillende podcasts op 1
 Dit project is helemaal gemaakt voor Darice. Dit zijn een aantal belangrijke toepassingen wat dit project echt voor Darice maken. 
 
 ### Podcasts van Vasilis
-> *Ik luister graag naar podcasts over actuele onderwerpen, of naar podcasts over bijvoorbeeld dit werkveld. De podcasts van Vasilis vindt ik leuk om naar te luisteren.*  
+> *Ik luister graag naar podcasts over actuele onderwerpen, of naar podcasts over bijvoorbeeld dit werkveld. De podcasts van Vasilis vind ik leuk om naar te luisteren.*  
 
 Darice heeft in de eerste test aangegeven dat ze de podcasts van Vasilis leuk vindt om naar te luisteren. Daarom heb ik ervoor gekozen om veel van deze podcasts uit te werken. Door dit te doen heeft Darice straks veel leesplezier van een aantal podcasts die ze zelf heel leuk vind.
 
 ### Grote stukken tekst
 > *Het nadeel van podcast transcripts is dat ze zo groot zijn. Het is eigenlijk een hele grote saaie lap tekst.*  
 
-Grote stukken tekst zijn er niet meer in mijn ontwerp, door middel van een button press krijg je een volgend tekstblok te zien. Hierdoor wordt Darice minder overvallen met een enorme tekst, en kan ze de podcast nogsteeds op eigen tempo lezen.
+Grote stukken tekst zijn er niet meer in mijn ontwerp, door middel van een button press krijg je een volgend tekstblok te zien. Hierdoor wordt Darice minder overvallen met een enorme tekst, en kan ze de podcast nog steeds op eigen tempo lezen.
 
 ### Onderscheid
 > *Doordat je die kleuren toepast kan ik heel makkelijk zien wat door wie wordt gezegd, dit scheelt mij veel onnodige moeite tijdens het lezen.*  
@@ -139,14 +140,14 @@ De verschillende sprekers zijn ingedeeld door middel van kleur. Op deze manier k
 [txt3]: https://github.com/rickgroot/human-centered-design-2021/blob/main/assets/txt4.jpg?raw=true "Tekst 3"
 
 ### Equalizer
-> *Ik kan de sterkte van spreken niet horen, een soort equalizer zou daarom voor mij veel waarder hebben.*  
+> *Ik kan de sterkte van spreken niet horen, een soort equalizer zou daarom voor mij veel waarde kunnen hebben.*  
 
 Door een equalizer aan het ontwerp toe te voegen heeft Darice wat visuele feedback van het niveau van spreken. Hierdoor kan ze de podcasts beter begrijpen, omdat ze het niveau kan inschatten.
 
 ### Home layout
 > *Ik wil veel podcasts in een keer kunnen zien, dit laat mij makkelijk een leuke uitkiezen.*  
 
-Door te testen heb ik een goede home layout gemaakt. Door verschillende layouts met elkaar te combineren heb ik een passend ontwerp kunnen maken. De layout is overzichtelijk, laat veel content zien en lijd niet af bij interactie.  
+Door te testen heb ik een goede home layout gemaakt. Door verschillende layouts met elkaar te combineren heb ik een passend ontwerp kunnen maken. De layout is overzichtelijk, laat veel content zien en leidt niet af bij interactie.  
 
 | ![Layout 1][lay1] | ![Layout 2][lay2] | ![Layout 3][lay3]
 |:---|:---|:---|
